@@ -93,7 +93,7 @@ const Authenticate = ({ setStatus }) => {
                 placeholder="Enter your email"
                 value={email}
                 onChange={handleChange}
-                style={{ color: "white", border: "1px solid white" , padding:'1rem'}}
+                style={{ color: "black", border: "1px solid white" , padding:'1rem'}}
               />
 
             </form>
