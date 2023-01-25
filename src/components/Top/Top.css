@@ -1,0 +1,16 @@
+.topMain{
+    height: 20vh;
+    background-color: #DFF6FF;  
+    margin: 10px solid black;
+}
+
+.topHeading1{
+    margin-left: 5%;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.topHeading2{
+    margin-left: 5%;
+    font-size: 30px;
+}

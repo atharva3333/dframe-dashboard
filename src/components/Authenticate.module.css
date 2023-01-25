@@ -1,0 +1,74 @@
+.container {
+  width: 50px;
+  height: 20px;
+  border-radius: 0px 4px 0px 4px;
+  background-color: #ff0000;
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+  display: flex;
+  gap: 5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.blur1 {
+  position: absolute;
+  width: 50rem;
+  height: 20rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(150px);
+  z-index: -9;
+  top: 0%;
+  right: 0%;
+}
+.blur2 {
+  position: absolute;
+  width: 40rem;
+  height: 20rem;
+  border-radius: 50%;
+  background: #49c0f3;
+  filter: blur(190px);
+  z-index: -9;
+  bottom: 0%;
+  left: -20%;
+}
+
+.formHeading {
+  color: white;
+  font-size: 1.5rem;
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .hero {
+    gap: 1rem;
+  }
+
+  .hero > img {
+    transform: scale(0.7);
+  }
+
+  .hero > div {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .hero > img {
+    display: none;
+  }
+
+  .hero > div {
+    transform: scale(0.7);
+  }
+
+  .updateContainer {
+    transform: scale(0.7);
+  }
+}
